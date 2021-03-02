@@ -1,0 +1,20 @@
+/* setting the background image to a picture and fit the page */
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: azure;
+  font-size: 30px;
+}
+/* adjusting the margin on the left  */
+body {
+  margin-left: 100px;
+}
+
+/* adjusting the size and color of the h2 on the pages */
+.header {
+  color: black;
+  font-size: 50px;
+}

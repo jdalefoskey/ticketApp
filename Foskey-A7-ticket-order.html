@@ -33,9 +33,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel ="stylesheet" type="text/css" href="Foskey-A7-ticket-order.css">
+    <title>Ticket Sales</title>
 </head>
 <body>
+
+    <h2 class="header">Thanks for choosing Dale's ticket service, please make your selections below to complete your purchase.</h2>
+    <!-- form begins here -->
+    <form action="Foskey-A7-ticket-order.php" method="POST">
+		<!-- select number of tickets -->
+		<p>Number of tickets to purchase</p>
+		    <input type="number" name="numTickets">
+		
+		<!-- select concert  -->
+        <p>Select a concert to attend.</p>
+            <select id="artist" name="artist">
+            <option value="Modonna">Madonna</option>
+            <option value="Metallica">Melatllica</option>
+            </select>
+        <!-- select a day to attend -->
+        <p>Select a day to attend.</p>
+            <select id="concertNight" name="concertNight">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+            </select>
+            <br>
+            <br>
+		
+		<!-- provide a submit and reset button -->
+		<input type="submit" value="Order Now">
+		<input type="reset" value="Reset">
+	</form>
     
 </body>
 </html>
