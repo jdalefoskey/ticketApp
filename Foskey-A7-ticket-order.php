@@ -67,6 +67,6 @@
     }
 ?>
     <br>
-    <a href="Foskey-A7-ticket-order.html"> Return to Form</a>
+    <a href="index.html"> Return to Form</a>
 </body>
 </html>
